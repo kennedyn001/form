@@ -1,0 +1,32 @@
+table
+{
+    border-radius: 7px;
+    padding: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: rgb(231, 228, 228);
+}
+fieldset
+{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-radius: 7px;
+}
+button
+{
+    height: 1cm;
+    width: 2cm;
+    color: white;
+    background-color: blue;
+}
+:placeholder-shown
+{
+    padding-left: 1cm;
+}
+input
+{
+    border-radius: 5px;
+    border: 1px solid;
+    height: 20px;
+    width: 4cm;
+}

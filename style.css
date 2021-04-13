@@ -1,0 +1,47 @@
+p
+{
+    color: red;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-transform: lowercase;
+    text-shadow: 2px lawngreen;
+    border: 10px solid green;
+    border-style: dotted;
+}
+h1
+{
+    color: olive;
+}
+.increase
+{
+    font-style: italic;
+    font-size: larger;
+    color: green;
+    background-color: rosybrown;
+    font-family:'Times New Roman', Times, serif;
+}
+body
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZR7cUPf7dwlO3L5MIXLTuYPvUgQSWCDGcEQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+a:link
+{
+    color: red;
+}
+
+a:visited
+{
+    color:chartreuse;
+}
+a:hover
+{
+    color: green;
+}
+a:active
+{
+    color: deeppink;
+}

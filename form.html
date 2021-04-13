@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="" method="">
+            <pre>
+                <label for="fname">Firstname: </label>        <input type="text" placeholder="firstname" name="fname" id="fname" required>
+
+                <label for="pword">Password:</label>          <input type="password" placeholder="password" name="pword" id="pword" required>
+
+                <label for="age">Age:</label>               <input type="number" max="100" min="0" placeholder="age" name="age" id="age" required>
+
+                <label for="date">Date of Birth</label>      <input type="date" placeholder="birth" id="date" name="date" min="1980-01-01" max="2013-04-06">
+
+                <label for="gender">Gender</label>            <input type="radio" name="gender" id="female" value="female" checked>F   <input type="radio" id="male" name="gender" value="male">M
+
+                <label for="email">E-mail</label>             <input type="email" id="email" name="email" placeholder="email">
+                
+                <label for="phone">Phone No</label>           <input type="tel" id="phone" name="phone" placeholder="078xxxxxxx" maxlength="10" minlength="10">
+
+                <label for="text">Your text here</label>
+                <textarea placeholder="text" id="text" name="text" rows="3" cols="40"></textarea>
+                
+                <div>Favorite food</div>
+
+                <label for="rice"><input type="checkbox" name="rice" id="rice">Rice</label>
+                <label for="banana"><input type="checkbox" name="banana" id="banana">Banana</label>
+                <label for="beans"><input type="checkbox" name="beans" id="beans">Beans</label>
+                
+                
+
+                <div>Favorite sites</div>
+                <select>
+                    <option></option>
+                    <option>Facebook</option>
+                    <option>Instagram</option>
+                    <option>Twitter</option>
+                </select>
+                
+
+                            <button type="submit">Submit</button> <button type="reset">Reset</button> <input type="file">
+                            
+
+            </pre>
+        </form>
+    </body>
+</html>

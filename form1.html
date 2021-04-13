@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+            <table>
+                <tr>
+                    <td>
+                        <form>
+                        <fieldset>
+                            <legend><b>Personal Info</b></legend>
+                            <pre>
+<label for="fname">First Name</label>       <input type="text" placeholder="First name" name="fname" id="fname">
+
+<label for="lname">Last Name</label>        <input type="text" name="lname" placeholder="Last name" id="lname">
+
+<label for="email">E-mail</label>           <input type="email" name="email" placeholder="E-mail" id="email">
+
+<label for="birth">DOB</label>              <input type="date" name="birth" placeholder="Date of birth" id="birth" style="padding-left: 1cm;">
+
+<label for="age">Age</label>              <input type="number" name="age" placeholder="age" id="age">
+
+<label for="gender">Gender</label>
+<input type="radio" name="gender" value="female" style="width: auto; height: auto;">F
+<input type="radio" name="gender" value="male" style="width: auto; height: auto;">M
+<input type="radio" name="gender" value="other" style="width: auto; height: auto;">Other
+<label for="phone">Phone</label>            <input type="tel" name="phone" id="phone" placeholder="enter 10 numbers" maxlength="10" minlength="10">
+                            </pre>  
+                        </fieldset>
+                        <fieldset>
+                            <legend><b>Skills</b></legend>
+                                <pre>
+<label for="cours">Courses</label>
+<input type="checkbox" name="cours" id="cours" value="math" style="width: auto; height: auto;">Math
+<input type="checkbox" name="cours" id="cours" value="economy" style="width: auto; height: auto;">Economy
+<input type="checkbox" name="cours" id="cours" value="geography" style="width: auto; height: auto;">Geography
+
+<label for="lan">Languages</label>           <select id="lan" name="lan">
+    <option value="en">English</option>
+    <option value="fre">French</option>
+    <option value="spa">Spannish</option>
+</select>
+
+Resume
+<textarea placeholder="enter description here..." cols="35" rows="4"></textarea>
+<label for="file">CV</label>    <input type="file" id="file" name="file" style="padding: 4px; padding-left: 20px; width: 6cm;">
+                            </pre> 
+                        </fieldset>
+                        <button type="submit">Submit</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+    </body>
+</html>
